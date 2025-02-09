@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #f5d300; /* Gold text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000; /* Black */
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #f5d300 !important; /* Gold */
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: #c5a500 !important; /* Lighter gold on hover */
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #000000;
+}
+
+/* Services Section */
+.services {
+    background-color: #121212;
+    color: #f5d300;
+    padding: 60px 20px;
+    text-align: center;
+}
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.service {
+    background-color: #000000;
+    border: 2px solid #f5d300;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(245, 211, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+.service:hover {
+    transform: translateY(-5px);
+}
+.service h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.service p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Facilities Images */
+.facility-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(245, 211, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #f5d300;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 2px solid #f5d300;
+}
+.footer p {
+    margin: 0;
+}
+
+/* Social Media Links */
+.footer .social-icons {
+    margin-top: 15px;
+}
+.footer .social-icons a {
+    color: #f5d300;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+.footer .social-icons a:hover {
+    color: #c5a500;
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #121212;
+    color: #f5d300;
+    padding: 60px 20px;
+}
+.reviews h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.review-box {
+    border: 2px solid #f5d300;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(245, 211, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.review-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+.review-author {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Responsive Design for Reviews */
+@media (max-width: 768px) {
+    .review-box {
+        height: auto;
+    }
+}
